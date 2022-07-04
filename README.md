@@ -8,6 +8,9 @@ As shown in https://github.com/NiryoRobotics/niryo_one_ros, the requirements are
 ### Install ROS kinetic
 The system be be downloaded in [Ubiquity Robotics](https://learn.ubiquityrobotics.com/kinetic_pi_image_downloads). It's a Ubuntu 16.04 desktop with Kinetic pre-installed.
 
+
+![image](https://user-images.githubusercontent.com/45569291/177215186-af8f201a-d6fb-495c-a00a-d930b2d8be1d.png)
+
 ### Install some additional ROS packages
 
 ```
