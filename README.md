@@ -66,11 +66,14 @@ Don't forget to add new `setup.bash` command into `~/.bashrc`.
  ```
  
 2. Choose "Create New Moveit Configuration Package".
+
 3. Add `niryo_one_gripper1_n_camera.urdf.xacro` path.
    Now, you can see the preview of your model on the right.
    
   ![Screenshot from 2022-07-11 19-18-37](https://user-images.githubusercontent.com/45569291/178341842-8dc09c43-1394-4f9a-9409-04f538da4490.png)
   
-4. In "Self-Collisions" page, you can remain the default setting and click "Generate Collision Matrix"
+4. In "Self-Collisions" page, you can remain the default setting and click "Generate Collision Matrix".
+
 5. The "Virtual Joints" is ignored here.
+
 6. In "Planning Group" page, 
