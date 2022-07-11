@@ -49,7 +49,7 @@ git clone https://github.com/NiryoRobotics/ned_ros
  catkin_init_workspace
  ```
 
-+ Copy `niryo_robot_description` and `niryo_moveit_config` into new folder.
++ Copy `niryo_robot_description` into new folder.
   Then, compile the folder.
 
  ```
@@ -60,3 +60,12 @@ Don't forget to add new `setup.bash` command into `~/.bashrc`.
 
 ## Create SRDF files
 1. Launch Moveit Assistant
+
+ ```
+ roslaunch moveit_setup_assistant setup_assistant.launch
+ ```
+ 
+2. Choose "Create New Moveit Configuration Package".
+3. Add `niryo_one_gripper1_n_camera.urdf.xacro` path.
+   Now, you can see the preview of your model on the right.
+   /home/ubuntu/Pictures/Screenshot from 2022-07-11 19-18-37.png
