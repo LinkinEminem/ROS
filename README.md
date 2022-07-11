@@ -41,21 +41,22 @@ git clone https://github.com/NiryoRobotics/ned_ros
 
 ## Create a new workspace
 
-Create a new folder `niryo_ws` and initialize worksapce.
++ Create a new folder `niryo_ws` and initialize worksapce.
 
-```
-mkdir -p niryo_ws/src
-cd niryo/src
-catkin_init_workspace
-```
+ ```
+ mkdir -p niryo_ws/src
+ cd niryo/src
+ catkin_init_workspace
+ ```
 
-Copy `niryo_robot_description` and `niryo_moveit_config` into new folder.
-Then, compile the folder.
++ Copy `niryo_robot_description` and `niryo_moveit_config` into new folder.
+  Then, compile the folder.
 
-```
-catkin_make
-```
+ ```
+ catkin_make
+ ```
 
 Don't forget to add new `setup.bash` command into `~/.bashrc`.
 
-##
+## Create SRDF files
+1. Launch Moveit Assistant
