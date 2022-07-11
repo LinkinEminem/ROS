@@ -1,24 +1,13 @@
 # Install Niryo One ROS stack
 
 ## Install Required Environment
-As shown in https://github.com/NiryoRobotics/niryo_one_ros, the requirements are:
-  * Ubuntu 16.04
-  * ROS Kinetic (other versions are not supported)
+The requirements are:
+  * Ubuntu 18.04
+  * ROS Melodic
 
-### Install ROS kinetic
-The system be be downloaded in [Ubiquity Robotics](https://learn.ubiquityrobotics.com/kinetic_pi_image_downloads). It's a Ubuntu 16.04 desktop with Kinetic pre-installed.
+The detailed requirement can be found in [Ubuntu 18 Installation](https://docs.niryo.com/dev/ros/v4.1.0/en/source/installation/ubuntu_18.html)
 
-
-![image](https://user-images.githubusercontent.com/45569291/177215186-af8f201a-d6fb-495c-a00a-d930b2d8be1d.png)
-
-### Install some additional ROS packages
-
-```
-sudo apt-get install ros-kinetic-robot-state-publisher ros-kinetic-moveit ros-kinetic-rosbridge-suite ros-kinetic-joy ros-kinetic-ros-control ros-kinetic-ros-controllers ros-kinetic-tf2-web-republisher
-```
-
-
-### Install an additional Python module
+## Install an additional Python module
 
 The official method is:
 
@@ -41,5 +30,32 @@ Then, you have successfully downloaded the required package. You can check in th
 /usr/bin/python2.7/site-package
 ```
 
-# Build URDF(Unified Robot Description Format)
-Create a new folder 
+## Clone GitHub Resource
+
+
+```
+git clone https://github.com/NiryoRobotics/ned_ros
+```
+
+# Build URDF (Unified Robot Description Format)
+
+## Create a new workspace
+
+Create a new folder `niryo_ws` and initialize worksapce.
+
+```
+mkdir -p niryo_ws/src
+cd niryo/src
+catkin_init_workspace
+```
+
+Copy `niryo_robot_description` and `niryo_moveit_config` into new folder.
+Then, compile the folder.
+
+```
+catkin_make
+```
+
+Don't forget to add new `setup.bash` command into `~/.bashrc`.
+
+##
