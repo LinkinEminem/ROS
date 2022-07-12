@@ -117,4 +117,8 @@ Although there already has a SRDF file in the folder, some mistakes are exsited.
    
    ![Screenshot from 2022-07-12 14-26-45](https://user-images.githubusercontent.com/45569291/178514056-89bba968-0b8f-478e-86c5-d1a324fcc5da.png)
    
-   In such situation, just go to `/niryo_moveit_config/config/fake_controllers.yaml` and `/sensors_3d.yaml` and delete `initial` and `sensors`. Then rerun the command. You will find the error messages have gone.
+   In such situation, just go to `/niryo_moveit_config/config/fake_controllers.yaml` and `/sensors_3d.yaml`. Than delete `initial` and `sensors`. Rerun the command and you will find the error messages have gone.
+
+   ![Screenshot from 2022-07-12 14-33-28](https://user-images.githubusercontent.com/45569291/178515532-caa49972-4b65-44cd-a63c-e89b161c0bab.png)
+   
+3. 
