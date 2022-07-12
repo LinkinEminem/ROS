@@ -89,3 +89,11 @@ Although there already has a SRDF file in the folder, some mistakes are exsited.
    ![Screenshot from 2022-07-12 11-09-14](https://user-images.githubusercontent.com/45569291/178476800-7b4cdecb-7d88-4d92-ad56-571de586992f.png)
 
 7. The "Robot Poses" is ignored here.
+
+8. In "End Effectors" page, add as followed:
+
+  ![Screenshot from 2022-07-12 13-51-54](https://user-images.githubusercontent.com/45569291/178506434-e7d69734-7bfc-4666-84d7-38341fce1429.png)
+
+9. In "ROS Controller" page, enter *Controller Name* as **arm_position_controller**.Choose **position_controllers/JointPositionController** as *controller type*.
+
+10. Finally, add author information as you wish and click *Generate Package* button.
