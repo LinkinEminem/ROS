@@ -76,4 +76,4 @@ Don't forget to add new `setup.bash` command into `~/.bashrc`.
 
 5. The "Virtual Joints" is ignored here.
 
-6. In "Planning Group" page, 
+6. In "Planning Group" page, here we can reference the file in 
