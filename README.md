@@ -100,4 +100,19 @@ Although there already has a SRDF file in the folder, some mistakes are exsited.
 
 
 ## Control Robotics Arm in Simulation
-1. Back to your workspace and compile configration files using `catkin_make`.
+1. Back to your workspace and compile configration files.
+
+   ```
+   cd ~/niryo_ws
+   catkin_make
+   ```
+
+2. Open simulation model in Rviz.
+
+   ```
+   roslaunch niryo_moveit_config demo.launch
+   ```
+   
+   Some issues may encounter like:
+   
+   ![Screenshot from 2022-07-12 14-26-45](https://user-images.githubusercontent.com/45569291/178514056-89bba968-0b8f-478e-86c5-d1a324fcc5da.png)
