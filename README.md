@@ -71,7 +71,7 @@ Although there already has a SRDF file in the folder, some mistakes are exsited.
 3. Add `niryo_one_gripper1_n_camera.urdf.xacro` path.
    Now, you can see the preview of your model on the right.
    
-  ![Screenshot from 2022-07-11 19-18-37](https://user-images.githubusercontent.com/45569291/178341842-8dc09c43-1394-4f9a-9409-04f538da4490.png)
+   ![Screenshot from 2022-07-11 19-18-37](https://user-images.githubusercontent.com/45569291/178341842-8dc09c43-1394-4f9a-9409-04f538da4490.png)
   
 4. In "Self-Collisions" page, you can remain the default setting and click "Generate Collision Matrix".
 
