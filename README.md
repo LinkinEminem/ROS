@@ -121,4 +121,15 @@ Although there already has a SRDF file in the folder, some mistakes are exsited.
 
    ![Screenshot from 2022-07-12 14-33-28](https://user-images.githubusercontent.com/45569291/178515532-caa49972-4b65-44cd-a63c-e89b161c0bab.png)
    
-3. 
+3. Create a new package to store python command files.
+   
+   ```
+   catkin_create_pkg niryo_robot_control roscpp rospy std_msgs
+   cd ~/niryo_ws
+   catkin_make
+   
+   mkdir -p niryo_robot_control/scripts
+   cd niryo_robot_control/scripts
+   touch demo.py
+   ```
+
