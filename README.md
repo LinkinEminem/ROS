@@ -97,3 +97,7 @@ Although there already has a SRDF file in the folder, some mistakes are exsited.
 9. In "ROS Controller" page, enter **arm_position_controller** as *Controller Name*. Choose **position_controllers/JointPositionController** as *controller type*.
 
 10. Finally, add author information as you wish. Set generate path as a new folder named `niryo_moveit_config` in your workspace. Click *Generate Package* button.
+
+
+## Control Robotics Arm in Simulation
+1. Back to your workspace and compile configration files using `catkin_make`.
