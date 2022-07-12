@@ -39,7 +39,7 @@ git clone https://github.com/NiryoRobotics/ned_ros
 
 # Build URDF (Unified Robot Description Format)
 
-## Create a new workspace
+## Create A New Workspace
 
 + Create a new folder `niryo_ws` and initialize worksapce.
 
