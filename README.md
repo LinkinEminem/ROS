@@ -82,7 +82,7 @@ Although there already has a SRDF file in the folder, some mistakes are exsited.
    ![Screenshot from 2022-07-12 10-47-36](https://user-images.githubusercontent.com/45569291/178473466-7191b888-807e-4919-bd32-5ab1eaa19bab.png)
    
    
-   Add correspnding joints and links. In `arm group`, we choose `kdl_kinematics_plugin/KDLKinamaticsPlugin` as `Kinematic Solver` and select `RRTConnect` as `Group Default Planner`. In `tool group`, we don't need to set these.
+   Add correspnding joints and links. In `arm group`, we choose **kdl_kinematics_plugin/KDLKinamaticsPlugin** as *Kinematic Solver* and select **RRTConnect** as *Group Default Planner*. In `tool group`, we don't need to set these.
    
    Finally, it looks like this.
    
