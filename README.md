@@ -7,7 +7,7 @@ The requirements are:
 
 The detailed requirement can be found in [Ubuntu 18 Installation](https://docs.niryo.com/dev/ros/v4.1.0/en/source/installation/ubuntu_18.html)
 
-## Install an additional Python module
+## Install An Additional Python Module
 
 The official method is:
 
@@ -58,7 +58,7 @@ git clone https://github.com/NiryoRobotics/ned_ros
 
 Don't forget to add new `setup.bash` command into `~/.bashrc`.
 
-## Create SRDF files
+## Create SRDF Files
 Although there already has a SRDF file in the folder, some mistakes are exsited. Therefore, we need to generate it by ourselves.
 1. Launch Moveit Assistant
 
@@ -96,4 +96,4 @@ Although there already has a SRDF file in the folder, some mistakes are exsited.
 
 9. In "ROS Controller" page, enter **arm_position_controller** as *Controller Name*. Choose **position_controllers/JointPositionController** as *controller type*.
 
-10. Finally, add author information as you wish and click *Generate Package* button.
+10. Finally, add author information as you wish. Set generate path as a new folder named `niryo_moveit_config` in your workspace. Click *Generate Package* button.
