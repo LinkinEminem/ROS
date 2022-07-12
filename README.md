@@ -94,6 +94,6 @@ Although there already has a SRDF file in the folder, some mistakes are exsited.
 
   ![Screenshot from 2022-07-12 13-51-54](https://user-images.githubusercontent.com/45569291/178506434-e7d69734-7bfc-4666-84d7-38341fce1429.png)
 
-9. In "ROS Controller" page, enter *Controller Name* as **arm_position_controller**.Choose **position_controllers/JointPositionController** as *controller type*.
+9. In "ROS Controller" page, enter **arm_position_controller** as *Controller Name*. Choose **position_controllers/JointPositionController** as *controller type*.
 
 10. Finally, add author information as you wish and click *Generate Package* button.
