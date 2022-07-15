@@ -133,3 +133,5 @@ Although there already has a SRDF file in the folder, some mistakes are exsited.
    touch demo.py
    ```
 
+## Control Physical Robotics Arm
+![Pic1](https://user-images.githubusercontent.com/45569291/179222848-6898b228-2345-475d-a6fa-d747a1aab5d9.png)
