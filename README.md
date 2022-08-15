@@ -135,4 +135,4 @@ Although there already has a SRDF file in the folder, some mistakes are exsited.
 
 ## Control Physical Robotics Arm
 
-![pic1](https://user-images.githubusercontent.com/45569291/179257877-2d78370a-0638-4f87-b142-4fcf7a8fe264.svg)
+![image](https://user-images.githubusercontent.com/45569291/184678088-9117aad7-85c7-4362-a00a-1c8c7005aabd.png)
